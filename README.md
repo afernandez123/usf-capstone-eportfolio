@@ -17,7 +17,7 @@ This is a separate academic portfolio and is not presented as a cybersecurity pr
 - `index.html` - Home and academic overview
 - `enhanced-bio.html` - Extended professional biography
 - `project-management-plan.html` - Completed project management plan paper
-- `artifacts.html` - Current and future capstone assignments
+- `academic-work.html` - Current and future capstone assignments
 - `certifications.html` - Professional certification evidence
 - `resume.html` - Education, skills, certifications, and career interests
 - `contact.html` - Professional contact links
