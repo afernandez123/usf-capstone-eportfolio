@@ -8,7 +8,7 @@ The website is designed for:
 
 - University faculty reviewing capstone coursework
 - Prospective employers reviewing academic and professional achievements
-- Ongoing publication of course artifacts and reflections
+- Ongoing publication of academic work and reflections
 
 This is a separate academic portfolio and is not presented as a cybersecurity project portfolio.
 
