@@ -159,17 +159,6 @@ p {
     color: var(--text);
 }
 
-.brand-photo {
-    display: block;
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center 24%;
-    border: 2px solid var(--green);
-    border-bottom: 4px solid var(--gold);
-}
-
 .site-brand strong,
 .site-brand small {
     display: block;
@@ -933,11 +922,6 @@ dd {
 }
 
 @media (max-width: 480px) {
-    .brand-photo {
-        width: 42px;
-        height: 42px;
-    }
-
     .site-brand strong {
         font-size: 0.95rem;
     }
