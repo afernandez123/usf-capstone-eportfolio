@@ -46,7 +46,7 @@ This is a separate academic portfolio and is not presented as a cybersecurity pr
 1. Replace all text enclosed in square brackets.
 2. Paste the completed Enhanced Bio into `enhanced-bio.html`.
 3. Paste the completed capstone paper into `project-management-plan.html`.
-4. Replace future artifact cards as assignments are completed.
+4. Replace future assignment cards as coursework is completed.
 5. Update the resume download link whenever a newer resume is published.
 
 ## GitHub Pages
