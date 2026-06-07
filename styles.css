@@ -584,6 +584,10 @@ dd {
     gap: 1.25rem;
 }
 
+.artifact-grid-single {
+    grid-template-columns: minmax(0, 760px);
+}
+
 .artifact-card {
     display: flex;
     flex-direction: column;
