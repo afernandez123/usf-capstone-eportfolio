@@ -432,7 +432,7 @@ dd {
 
 .feature-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.25rem;
 }
 
@@ -638,6 +638,52 @@ dd {
     background: #fbfcfb;
     border-style: dashed;
     box-shadow: none;
+}
+
+.certification-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+.certification-card {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 1.25rem;
+    align-items: start;
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.certification-badge {
+    display: grid;
+    place-items: center;
+    min-height: 120px;
+    padding: 0.8rem;
+    background: var(--surface-muted);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.certification-badge img {
+    max-height: 94px;
+    width: auto;
+}
+
+.certification-content h2 {
+    margin-bottom: 0.4rem;
+    font-size: 1.45rem;
+}
+
+.certification-content p:not(.artifact-label) {
+    color: var(--text-muted);
+}
+
+.certification-content .clean-list {
+    margin-top: 0.85rem;
 }
 
 .resume-sheet {
@@ -885,6 +931,7 @@ dd {
     }
 
     .artifact-grid,
+    .certification-grid,
     .skill-groups {
         grid-template-columns: 1fr;
     }
@@ -918,6 +965,16 @@ dd {
 
     .footer-inner p + p {
         margin-top: 0.35rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .certification-card {
+        grid-template-columns: 1fr;
+    }
+
+    .certification-badge {
+        max-width: 180px;
     }
 }
 
