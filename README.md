@@ -43,11 +43,10 @@ This is a separate academic portfolio and is not presented as a cybersecurity pr
 ## Editing Guide
 
 1. Replace all text enclosed in square brackets.
-2. Replace the headshot placeholder with an image if desired.
-3. Update the contact links in `contact.html`.
-4. Add the final resume file and update the download link in `resume.html`.
-5. Paste the completed capstone paper into `project-management-plan.html`.
-6. Replace future artifact cards as assignments are completed.
+2. Paste the completed Enhanced Bio into `enhanced-bio.html`.
+3. Paste the completed capstone paper into `project-management-plan.html`.
+4. Replace future artifact cards as assignments are completed.
+5. Update the resume download link whenever a newer resume is published.
 
 ## GitHub Pages
 
