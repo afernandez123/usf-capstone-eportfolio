@@ -159,17 +159,15 @@ p {
     color: var(--text);
 }
 
-.brand-mark {
-    display: grid;
-    place-items: center;
+.brand-photo {
+    display: block;
     width: 46px;
     height: 46px;
-    background: var(--green);
-    color: #ffffff;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 24%;
+    border: 2px solid var(--green);
     border-bottom: 4px solid var(--gold);
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.05rem;
-    font-weight: 700;
 }
 
 .site-brand strong,
@@ -935,7 +933,7 @@ dd {
 }
 
 @media (max-width: 480px) {
-    .brand-mark {
+    .brand-photo {
         width: 42px;
         height: 42px;
     }
