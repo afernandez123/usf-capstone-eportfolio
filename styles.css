@@ -473,6 +473,18 @@ dd {
     font-size: 1.1rem;
 }
 
+.reflection-callout {
+    margin-top: 2rem;
+    padding: 1.25rem 1.4rem;
+    border-left: 4px solid var(--green);
+    background: var(--surface-muted);
+    color: var(--text-muted);
+}
+
+.reflection-callout strong {
+    color: var(--text);
+}
+
 .page-hero {
     padding: clamp(3.25rem, 7vw, 5.25rem) 0;
     background: var(--surface-muted);
