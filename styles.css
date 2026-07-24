@@ -607,6 +607,49 @@ dd {
     margin-top: auto;
 }
 
+.certification-content .button {
+    margin-top: 1rem;
+}
+
+.proof-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.proof-card {
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.proof-card-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.proof-card-heading h2 {
+    margin-bottom: 0;
+}
+
+.certificate-document {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 720px;
+    object-fit: contain;
+    border: 1px solid var(--border);
+    background: var(--surface-muted);
+}
+
+.certificate-image-link {
+    display: block;
+}
+
 .artifact-status {
     align-self: flex-end;
     margin-bottom: 1.25rem;
